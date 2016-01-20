@@ -11,7 +11,7 @@
 		<!-- 编码版本号属性配置 -->
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<spring.version>4.1.4.RELEASE</spring.version>
+		<spring.version>4.1.7.RELEASE</spring.version>
 		<jackson.version>1.7.1</jackson.version>
 	</properties>
 	
