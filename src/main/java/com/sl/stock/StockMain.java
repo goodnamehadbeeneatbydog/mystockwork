@@ -12,7 +12,8 @@ public class StockMain {
 		// TODO Auto-generated method stub
 
 		String response = HttpRequest.get(
-				"http://hq.sinajs.cn/?list=sh000001,sz000882").body();
+				"http://hq.sinajs.cn/?date=2016-08-31&list=sh000001,sz000882").body();
+		logger.debug("start :"+response);
 		String[] ress = response.replaceAll("\n", "").split(";",0);
 		System.out.println(ress.length);
 		for (String str : ress) {
