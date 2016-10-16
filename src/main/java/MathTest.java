@@ -4,11 +4,12 @@ import java.util.List;
 /**
  * @author Administrator
  *理论还是有问题，成功率不高，得切换模式
+ *无法验证结果，失败几率太高，随即论，1/3才是很大的中奖几率，其他小成本无法多次测试
  */
 public class MathTest {
 
     public static void main(String[] args) {
-    	computeNum(99);
+    	computeNum(2042);
     	//test("10003747");
     }
 
