@@ -1,3 +1,4 @@
+.idea
 *.class
 
 # Mobile Tools for Java (J2ME)
@@ -13,4 +14,7 @@ hs_err_pid*
 /target/
 *.classpath
 *.project
+.git/
 
+.project
+stockall.iml
